@@ -54,7 +54,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="flex flex-col xl:-translate-y-20 overflow-hidden">
+    <div className="flex flex-col xl:-translate-y-20 overflow-hidden -translate-y-10">
       <div className="sm:min-h-24 bg-black w-full z-30">
 
       </div>
