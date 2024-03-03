@@ -67,7 +67,7 @@ export default function Home() {
             FOR
           </span>
 
-          <span className={`${showLogo ? 'bottom-0 opacity-100' : 'opacity-0 bottom-full'} text-3xl sm:text-6xl transition-all duration-700 ease-in-out absolute left-0 translate-x-1/5 min-w-96`}>
+          <span className={`${showLogo ? 'bottom-0 opacity-100' : 'opacity-0 bottom-full'} text-4xl sm:text-6xl transition-all duration-700 ease-in-out absolute left-0 translate-x-1/5 min-w-96`}>
             WhisEve
           </span>
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
 
       </div>
 
-      <div className={`text-base -mt-10 sm:text-3xl text-start ${showCS ? 'opacity-100' : 'opacity-0'} transition-all duration-700 ease-in pl-5 z-50`}>
+      <div className={`text-2xl -mt-10 sm:text-3xl text-start ${showCS ? 'opacity-100' : 'opacity-0'} transition-all duration-700 ease-in pl-5 z-50`}>
         coming soon...
       </div>
     </div>
