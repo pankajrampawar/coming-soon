@@ -7,7 +7,7 @@ const happyMonkey = Happy_Monkey({ subsets: ["latin"], weight: ['400']})
 
 export const metadata = {
   title: "Whiseve",
-  description: "Recreating the social life, making the college life more resourcefull and fun...  Whiseve aims to power voice of students and help them message and connect anonymously in college.",
+  description: "Recreating the social life, making the college life more resourceful and fun...  Whiseve aims to power voice of students and help them message and connect anonymously in college.",
 };
 
 export default function RootLayout({ children }) {
