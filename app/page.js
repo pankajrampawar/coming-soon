@@ -14,6 +14,8 @@ export default function Home() {
 
   useEffect(()=>{
 
+    console.log("website opened");
+
     const timerForShowFor = setTimeout(() => {
       setShowFor(true)
     }, 200)
