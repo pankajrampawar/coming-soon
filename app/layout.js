@@ -14,8 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Analytics/>
-      <body className={`${happyMonkey.className} bg-black text-white flex justify-center items-center overflow-hidden min-h-screen max-h-screen max-w-screen text-4xl sm:text-6xl`}>{children}</body>
+      
+      <body className={`${happyMonkey.className} bg-black text-white flex justify-center items-center overflow-hidden min-h-screen max-h-screen max-w-screen text-4xl sm:text-6xl`}>
+        {children}
+        <Analytics/>  
+      </body>
     </html>
   );
 }
